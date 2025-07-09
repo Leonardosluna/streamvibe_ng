@@ -1,0 +1,41 @@
+/* Aqui vai ficar o global */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #1F1F1F;
+  font-family: sans-serif;
+  color: #fff;
+  background-image: url("/img/Group1.jpg"); /*Inclui uma imagem no body*/
+  background-position: center;/*centralizar a imagem*/
+  background-size: cover; /*Faz com que a imagem fique centralizada ref ao elemento pai, mesmo que corte a imagem */
+  height: 1000px;
+}
+
+/* Estilização do header */
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgb(0,0,0), rgba(0,0,0,0.5));
+  top: 0; /*Faz com que a navbar se posicione no inicio  da tela */
+  position: sticky;  /*Faz com que a navbar grude no topo da tela */
+  padding: 16px 32px;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #ccc
+}
+
+.nav-links li a:hover{
+  color: #b00610;
+}
