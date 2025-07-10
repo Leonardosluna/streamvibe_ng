@@ -7,7 +7,7 @@ body{
   background-color: #1F1F1F;
   font-family: sans-serif;
   color: #fff;
-  background-image: url("/Group1.jpg"); /*Inclui uma imagem no body*/
+  /* background-image: url("/Group1.jpg"); Inclui uma imagem no body */
   background-position: center;/*centralizar a imagem*/
   background-size: cover; /*Faz com que a imagem fique centralizada ref ao elemento pai, mesmo que corte a imagem */
   height: 1000px;
