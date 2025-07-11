@@ -1,14 +1,22 @@
-*{
+:root{
+  --font-serifada: sans-serif;
+  --font-prata: "Prata";
+
+  --color-primaria: #1f1f1f;
+  --color-secundaria: #b00610;
+
+}
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
-  background-color: #1F1F1F;
-  font-family: sans-serif;
-  color: #fff;
-  /* background-image: url("/Group1.jpg"); Inclui uma imagem no body */
-  background-position: center;/*centralizar a imagem*/
-  background-size: cover; /*Faz com que a imagem fique centralizada ref ao elemento pai, mesmo que corte a imagem */
+body {
+  background-color: var(--color-primaria);
+  font-family: var(--font-serifada);
+  color: var(--color-secundaria);
+  /*background-image: url("/Group1.jpg");*/ /*Inclui uma imagem no body*/
+  background-position: center; /*A imagem ficará centralizada*/
+  background-size: cover; /* Faz com que a imagem fique centralizada ref ao elemento pai, mesmo que corte a imagem.*/
   height: 1000px;
 }
