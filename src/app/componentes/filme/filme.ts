@@ -15,6 +15,7 @@ export class Filme {
   filme1 = {
     nome: "A Origem",
     imagem: "/Aorigem.jpg",
+    genero: "drama",
     sinopse: "Um grande sonhador que sonha dentro dos sonhos de quem ta sonhando",
     favorito: false
   }
